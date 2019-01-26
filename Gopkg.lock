@@ -10,8 +10,8 @@
   revision = "00898dfb9272da8d7e51d30a603e3b8cc8033df4"
 
 [[projects]]
-  branch = "develop"
-  digest = "1:6521bf74452fe2c579b7e99fa555613f33e9a21801eaf29f297e47ad509692e8"
+  branch = "master"
+  digest = "1:cbc201d23ebb9b7de255445467aacfc84718da7c489ca3c6029d7b23317d1335"
   name = "github.com/aldor007/stow"
   packages = [
     ".",
@@ -23,10 +23,10 @@
     "s3",
   ]
   pruneopts = "UT"
-  revision = "dee0ba7576487f919def95881b3e5bb6fe03a106"
+  revision = "1335bc2f8d38fa2a185a96594f67e3a51ebb6a50"
 
 [[projects]]
-  digest = "1:e2a8eda4c51943dfe50caa35e6f4318cc66c659ffcbe633e0aaa0e2ec03aa5bb"
+  digest = "1:05293418615c4ba360872795f277cbc97b0edf7b6206e85a537b11aa8ce392c7"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -67,8 +67,8 @@
     "service/sts",
   ]
   pruneopts = "UT"
-  revision = "62936e15518acb527a1a9cb4a39d96d94d0fd9a2"
-  version = "v1.16.15"
+  revision = "81f3829f5a9d041041bdf56e55926691309d7699"
+  version = "v1.16.26"
 
 [[projects]]
   branch = "master"
@@ -206,10 +206,9 @@
   name = "github.com/prometheus/client_model"
   packages = ["go"]
   pruneopts = "UT"
-  revision = "f287a105a20ec685d797f65cd0ce8fbeaef42da1"
+  revision = "56726106282f1985ea77d5305743db7231b0c0a8"
 
 [[projects]]
-  branch = "master"
   digest = "1:ce62b400185bf6b16ef6088011b719e449f5c15c4adb6821589679f752c2788e"
   name = "github.com/prometheus/common"
   packages = [
@@ -219,10 +218,11 @@
   ]
   pruneopts = "UT"
   revision = "2998b132700a7d019ff618c06a234b47c1f3f681"
+  version = "v0.1.0"
 
 [[projects]]
   branch = "master"
-  digest = "1:08eb8b60450efe841e37512d66ce366a87d187505d7c67b99307a6c1803483a2"
+  digest = "1:f532f2cdb9e9e4a8fad5a7e944482f4dd12650228e4a7a6c8492a0d069ce0690"
   name = "github.com/prometheus/procfs"
   packages = [
     ".",
@@ -231,7 +231,7 @@
     "xfs",
   ]
   pruneopts = "UT"
-  revision = "b1a0a9a36d7453ba0f62578b99712f3a6c5f82d1"
+  revision = "bf6a532e95b1f7a62adf0ab5050a5bb2237ad2f4"
 
 [[projects]]
   digest = "1:919bb3aa6d9d0b67648c219fa4925312bc3c2872da19e818fa769e9c97a2b643"
@@ -250,23 +250,23 @@
   version = "v1.3.0"
 
 [[projects]]
-  digest = "1:b77a6808d2479a400579eb8d3bf18bd5c884fa8f038f3a1ce77a47c15bb17e2c"
+  digest = "1:3810ea14d85aabc511e032f8c817e4f2276af72ea4346f223725e0aaaf1f5c10"
   name = "github.com/vmihailenco/msgpack"
   packages = [
     ".",
     "codes",
   ]
   pruneopts = "UT"
-  revision = "c4fc0fcdd500af473157759b6d73f935e727ec77"
-  version = "v4.0.1"
+  revision = "b962d79429a3c5135cca9ed528943f1551ec04df"
+  version = "v4.0.2"
 
 [[projects]]
-  digest = "1:777e729b475d3895c7229552aa10076f0d177daf37c0a72258006d046d329960"
+  digest = "1:3c1a69cdae3501bf75e76d0d86dc6f2b0a7421bc205c0cb7b96b19eed464a34d"
   name = "go.uber.org/atomic"
   packages = ["."]
   pruneopts = "UT"
-  revision = "4e336646b2ef9fc6e47be8e21594178f98e5ebcf"
-  version = "v1.2.0"
+  revision = "1ea20fb1cbb1cc08cbd0d913a96dead89aa18289"
+  version = "v1.3.2"
 
 [[projects]]
   digest = "1:60bf2a5e347af463c42ed31a493d817f8a72f102543060ed992754e689805d1a"
@@ -297,7 +297,7 @@
   name = "golang.org/x/net"
   packages = ["context"]
   pruneopts = "UT"
-  revision = "1e06a53dbb7e2ed46e91183f219db23c6943c532"
+  revision = "d26f9f9a57f3fab6a695bec0d84433c2c50f8bbf"
 
 [[projects]]
   digest = "1:56dfffc6e6ceeaebb6db73e02a846a92a850c53130078682993bd028a2ef717d"
@@ -335,17 +335,6 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:6de28cf34c450cfcfc25d28230311872599ccfcb9c2aba3a8d177a9225582130"
-  name = "gopkg.in/kothar/brotli-go.v0"
-  packages = [
-    "enc",
-    "shared",
-  ]
-  pruneopts = "UT"
-  revision = "771231d473d6c4896e97c2b6e3855f1afc0cdada"
-
-[[projects]]
-  branch = "master"
   digest = "1:863b86a1a9cb2aca2ae27e576c345f7eec79ef99bdd74a4d8fdd966af299f2f2"
   name = "gopkg.in/kothar/go-backblaze.v0"
   packages = ["."]
@@ -353,15 +342,6 @@
   revision = "9ac0cf0dab1a77a5c25e0e38e6b8e493385f1add"
 
 [[projects]]
-=======
-  digest = "1:863b86a1a9cb2aca2ae27e576c345f7eec79ef99bdd74a4d8fdd966af299f2f2"
-  name = "gopkg.in/kothar/go-backblaze.v0"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "9ac0cf0dab1a77a5c25e0e38e6b8e493385f1add"
-
-[[projects]]
->>>>>>> feature/change-logs-image-opt
   digest = "1:4d2e5a73dc1500038e504a8d78b986630e3626dc027bc030ba5c75da257cdb96"
   name = "gopkg.in/yaml.v2"
   packages = ["."]
